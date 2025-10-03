@@ -1,0 +1,14 @@
+name: gravitational_wave_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - scikit-learn
+  - plotly
+  - jupyter
+  - ipykernel
+  - notebook
+  - pip:
+      - giotto-tda
