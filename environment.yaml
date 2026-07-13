@@ -5,10 +5,15 @@ channels:
 dependencies:
   - python=3.12
   - numpy
+  - scipy
   - scikit-learn
   - plotly
+  - matplotlib
+  - plotly=6.9
   - jupyter
   - ipykernel
+  - nbformat
+  - nbconvert
   - notebook
   - pip:
-      - giotto-tda
+      - giotto-tda==0.6.2
